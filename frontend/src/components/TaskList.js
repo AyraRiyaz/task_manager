@@ -5,7 +5,7 @@ function TaskList({ tasks, onUpdateStatus, onDeleteTask }) {
   const getStatusDisplay = (status) => {
     if (status === 'to-do') return 'To-do';
     if (status === 'in-progress') return 'In-progress';
-    if (status === 'completed') return 'Done';
+    if (status === 'done') return 'Done';
     return status;
   };
 
