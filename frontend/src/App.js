@@ -4,7 +4,7 @@ import TaskForm from './components/TaskForm';
 import axios from 'axios';
 import './App.css';
 
-const API_URL = 'http://localhost:5000/api/tasks';
+const API_URL = 'https://task-management-api-gh4k.onrender.com/api/tasks';
 
 function App() {
   const [tasks, setTasks] = useState([]);
