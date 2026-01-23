@@ -62,30 +62,32 @@ A simple **task tracker** where users can:
 
 ## 🏗️ Architecture
 
+```
 task_management/
-├── backend/                 # Node.js REST API
+├── backend/                      # Node.js REST API
 │   ├── models/
-│   │   └── Task.js         # MongoDB schema
+│   │   └── Task.js              # MongoDB schema
 │   ├── controllers/
-│   │   └── taskController.js # Business logic
+│   │   └── taskController.js    # Business logic
 │   ├── routes/
-│   │   └── taskRoutes.js    # API endpoints
-│   ├── db.js               # Database connection
-│   ├── server.js           # Express setup
-│   ├── backendDocumentation.md           # Backend documentation
+│   │   └── taskRoutes.js        # API endpoints
+│   ├── db.js                    # Database connection
+│   ├── server.js                # Express setup
+│   ├── backendDocumentation.md  # Backend documentation
 │   └── package.json
 │
-├── frontend/                # React application
+├── frontend/                     # React application
 │   ├── src/
 │   │   ├── components/
-│   │   │   ├── TaskList.js   # Display tasks
-│   │   │   └── TaskForm.js   # Add task modal
-│   │   ├── App.js           # Main component
-│   │   └── index.js         # Entry point
-│   ├── frontendDocumentation.md            # Frontend documentation
+│   │   │   ├── TaskList.js      # Display tasks
+│   │   │   └── TaskForm.js      # Add task modal
+│   │   ├── App.js               # Main component
+│   │   └── index.js             # Entry point
+│   ├── frontendDocumentation.md # Frontend documentation
 │   └── package.json
 │
-└── README.md               # This file
+└── README.md                     # This file
+```
 
 ---
 
